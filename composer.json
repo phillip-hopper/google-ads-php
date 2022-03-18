@@ -2,9 +2,15 @@
   "name": "googleads/google-ads-php",
   "homepage": "https://github.com/googleads/google-ads-php",
   "description": "Google Ads API client for PHP",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:phillip-hopper/gax-php.git"
+    }
+  ],
   "require": {
     "php": ">=7.4",
-    "google/gax": "^1.7.0",
+    "google/gax": "dev-main",
     "grpc/grpc": "^1.36.0",
     "google/protobuf": "^3.19.4",
     "monolog/monolog": "^1.26 || ^2.0"
